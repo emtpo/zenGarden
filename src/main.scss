@@ -1,3 +1,53 @@
 @import "variables.scss";
 @import "mixins.scss";
 
+h1{
+    color: $dark;
+}
+
+.btn{
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 25px;
+
+    &:hover{
+        background: $dark;
+    }
+    &-danger{
+        background: $danger;
+        color: $light;
+    }
+    &-warning{
+        background: $warning;
+        color: $light;
+        @include camion(red);
+    }
+}
+
+h1{
+    @include camion(blue);   
+}
+p{
+    @include camion(green);
+}
+
+
+%alert{
+    padding: 30px;
+    font-size: 20px;
+    border: 1px solid $dark;
+    border-radius: 20px;
+    color: $light;
+}
+.alert-danger{
+    @extend %alert;
+    background: $danger;
+}
+.alert-warning{
+    @extend %alert;
+    background: $warning;
+}
+.alert-light{
+    @extend %alert;
+    background: $light;
+}
