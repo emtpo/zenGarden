@@ -1,12 +1,25 @@
+@mixin intro($color) {
+    font-size: 11px;
+    color: $orange;
+    font-style: italic;
+    text-align: center;
+}
+
 @mixin paragraphe($color) {
     font-size: 12px;
-    color: $rose;
+    color: $dark;
     font-style: italic;
 }
 
-
 @mixin h3($color) {
-    font-size: 15px;
+    font-size: 17px;
     color: $rose;
     font-style: bold;
+    text-decoration-line: underline;
+}
+
+@mixin a($color) {
+    color: $pink;
+    font-style: bold;
+    text-decoration-line: underline;
 }

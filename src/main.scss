@@ -16,6 +16,12 @@ h1{
     text-align: center;
 }
 
+h2{
+    color: $purpple;
+    font-size: 22px;
+    text-align: center;
+    font-style: italic;
+}
 
 
 
@@ -29,12 +35,22 @@ h1{
     }
 }
 
-
+#zen-summary{
+    @include intro(rgba(0, 0, 0, 0.24));
+}
 
 p{
     @include paragraphe(rgba(0, 0, 0, 0.24));
 }
 
-p{
+h3{
     @include h3(rgba(0, 0, 0, 0.24));
+}
+
+a{
+    @include a(rgba(0, 0, 0, 0.24));
+    &:hover{
+        background: $pink;
+        color: $dark;
+    }
 }
