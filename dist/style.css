@@ -1,17 +1,16 @@
-h1 {
-  color: #F0B27A;
-  font-size: 28px;
-  display: flex;
-  text-align: center;
-}
-
 #css-zen-garden {
   background-image: url(../dist/img/fleur.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: initial;
+  background-position: top;
   font-family: "Abel", sans-serif;
   margin: 11px;
+}
+
+h1 {
+  color: #F0B27A;
+  font-size: 35px;
+  text-align: center;
 }
 
 .btn {
@@ -23,16 +22,16 @@ h1 {
   background: #F0B27A;
 }
 
-h1 {
-  background: #b2bec3;
-  font-size: 22px;
-  color: black;
+p {
+  font-size: 12px;
+  color: #FF66FF;
+  font-style: italic;
 }
 
 p {
-  background: rgba(0, 0, 0, 0.24);
-  font-size: 22px;
-  color: black;
+  font-size: 15px;
+  color: #FF66FF;
+  font-style: bold;
 }
 
 /*# sourceMappingURL=style.css.map */

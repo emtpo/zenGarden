@@ -1,6 +1,12 @@
-
 @mixin paragraphe($color) {
-    background: $color;
-    font-size: 22px;
-    color: black;
+    font-size: 12px;
+    color: $rose;
+    font-style: italic;
+}
+
+
+@mixin h3($color) {
+    font-size: 15px;
+    color: $rose;
+    font-style: bold;
 }

@@ -1,23 +1,23 @@
 @import "variables.scss";
 @import "mixins.scss";
 
-
-
-h1{
-    color: $orange;
-    font-size: 28px;
-    display: flex;
-    text-align: center;
-}
-
 #css-zen-garden{
     background-image: url(../dist/img/fleur.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: initial;;
+    background-position: top;;
     font-family: 'Abel', sans-serif;
     margin: 11px;
 }
+
+h1{
+    color: $orange;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+
 
 .btn{
     padding: 20px;
@@ -29,11 +29,12 @@ h1{
     }
 }
 
-h1{
-    @include paragraphe(#b2bec3);   
-}
+
 
 p{
     @include paragraphe(rgba(0, 0, 0, 0.24));
 }
 
+p{
+    @include h3(rgba(0, 0, 0, 0.24));
+}
