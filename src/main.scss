@@ -1,12 +1,20 @@
 @import "variables.scss";
 @import "mixins.scss";
 
-h1{
-    color: $light;
 
+
+h1{
+    color: $orange;
+    font-size: 28px;
+    display: flex;
+    text-align: center;
 }
+
 #css-zen-garden{
     background-image: url(../dist/img/fleur.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: initial;;
     font-family: 'Abel', sans-serif;
     margin: 11px;
 }
@@ -17,7 +25,7 @@ h1{
     font-size: 25px;
 
     &:hover{
-        background: $dark;
+        background: $orange;
     }
 }
 

@@ -1,9 +1,15 @@
 h1 {
-  color: #ecf0f1;
+  color: #F0B27A;
+  font-size: 28px;
+  display: flex;
+  text-align: center;
 }
 
 #css-zen-garden {
   background-image: url(../dist/img/fleur.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: initial;
   font-family: "Abel", sans-serif;
   margin: 11px;
 }
@@ -14,7 +20,7 @@ h1 {
   font-size: 25px;
 }
 .btn:hover {
-  background: #2c3e50;
+  background: #F0B27A;
 }
 
 h1 {
