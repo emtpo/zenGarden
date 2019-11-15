@@ -1,5 +1,11 @@
 h1 {
-  color: #2c3e50;
+  color: #ecf0f1;
+}
+
+#css-zen-garden {
+  background-image: url(../dist/img/fleur.jpg);
+  font-family: "Abel", sans-serif;
+  margin: 11px;
 }
 
 .btn {
@@ -10,48 +16,17 @@ h1 {
 .btn:hover {
   background: #2c3e50;
 }
-.btn-danger {
-  background: #e74c3c;
-  color: #ecf0f1;
-}
-.btn-warning {
-  background: #e67e22;
-  color: #ecf0f1;
-  border: 2px solid #2c3e50;
-  background: red;
-  font-size: 30px;
-}
 
 h1 {
-  border: 2px solid #2c3e50;
-  background: blue;
-  font-size: 30px;
+  background: #b2bec3;
+  font-size: 22px;
+  color: black;
 }
 
 p {
-  border: 2px solid #2c3e50;
-  background: green;
-  font-size: 30px;
-}
-
-.alert-light, .alert-warning, .alert-danger {
-  padding: 30px;
-  font-size: 20px;
-  border: 1px solid #2c3e50;
-  border-radius: 20px;
-  color: #ecf0f1;
-}
-
-.alert-danger {
-  background: #e74c3c;
-}
-
-.alert-warning {
-  background: #e67e22;
-}
-
-.alert-light {
-  background: #ecf0f1;
+  background: rgba(0, 0, 0, 0.24);
+  font-size: 22px;
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

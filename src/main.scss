@@ -2,7 +2,13 @@
 @import "mixins.scss";
 
 h1{
-    color: $dark;
+    color: $light;
+
+}
+#css-zen-garden{
+    background-image: url(../dist/img/fleur.jpg);
+    font-family: 'Abel', sans-serif;
+    margin: 11px;
 }
 
 .btn{
@@ -13,41 +19,13 @@ h1{
     &:hover{
         background: $dark;
     }
-    &-danger{
-        background: $danger;
-        color: $light;
-    }
-    &-warning{
-        background: $warning;
-        color: $light;
-        @include camion(red);
-    }
 }
 
 h1{
-    @include camion(blue);   
+    @include paragraphe(#b2bec3);   
 }
+
 p{
-    @include camion(green);
+    @include paragraphe(rgba(0, 0, 0, 0.24));
 }
 
-
-%alert{
-    padding: 30px;
-    font-size: 20px;
-    border: 1px solid $dark;
-    border-radius: 20px;
-    color: $light;
-}
-.alert-danger{
-    @extend %alert;
-    background: $danger;
-}
-.alert-warning{
-    @extend %alert;
-    background: $warning;
-}
-.alert-light{
-    @extend %alert;
-    background: $light;
-}

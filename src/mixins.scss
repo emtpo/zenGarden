@@ -1,5 +1,6 @@
-@mixin camion($color) {
-    border: 2px solid $dark;
+
+@mixin paragraphe($color) {
     background: $color;
-    font-size: 30px;
+    font-size: 22px;
+    color: black;
 }
