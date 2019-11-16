@@ -23,3 +23,8 @@
     font-style: bold;
     text-decoration-line: underline;
 }
+
+@mixin bottom($color) {
+    font-size: 8px;
+    color: $dark;
+}

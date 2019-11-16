@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-position: top;
   font-family: "Abel", sans-serif;
+  margin: inherit;
 }
 
 h1 {
@@ -53,13 +54,20 @@ a:hover {
   color: #292929;
 }
 
-.sidebar {
-  margin: none;
-  background: url(//dist/img/credits.jpg);
+.wrapper {
+  font-size: 8px;
+  color: #292929;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.wrapper {
-  margin: none;
+.sidebar {
+  background-image: url("../dist/img/bottom.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  font-size: 8px;
+  color: #292929;
 }
 
 /*# sourceMappingURL=style.css.map */

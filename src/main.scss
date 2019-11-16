@@ -5,8 +5,9 @@
     background-image: url(../dist/img/fleur.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-position: top;;
+    background-position: top;
     font-family: 'Abel', sans-serif;
+    margin: inherit;
 }
 
 h1{
@@ -46,10 +47,16 @@ a{
     }
 }
 
-.sidebar{
-    margin: none;
-    background: url(//dist/img/credits.jpg);
-}
 .wrapper{
-    margin: none;
+    @include bottom(rgba(0, 0, 0, 0.24));
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sidebar{
+    background-image: url("../dist/img/bottom.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    @include bottom(rgba(0, 0, 0, 0.24));
 }
