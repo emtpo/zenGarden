@@ -12,6 +12,10 @@ h1 {
   font-size: 35px;
   text-align: center;
 }
+h1:hover {
+  background: #F0B27A;
+  color: #292929;
+}
 
 h2 {
   color: #BB8FCE;
