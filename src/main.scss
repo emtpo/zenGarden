@@ -62,5 +62,5 @@ a{
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
-    @include bottom(rgba(0, 0, 0, 0.24));
+    @extend .wrapper;
 }

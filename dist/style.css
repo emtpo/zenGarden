@@ -58,7 +58,7 @@ a:hover {
   color: #292929;
 }
 
-.wrapper {
+.wrapper, .sidebar {
   font-size: 8px;
   color: #292929;
   display: flex;
@@ -70,8 +70,6 @@ a:hover {
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
-  font-size: 8px;
-  color: #292929;
 }
 
 /*# sourceMappingURL=style.css.map */
